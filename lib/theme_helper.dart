@@ -5,7 +5,7 @@ class ThemeHelper with ChangeNotifier {
   static const String _themeData = 'data';
   bool _isDarkTheme = false;
 
-  ThemeProvider() {
+  ThemeHelper() {
     _loadTheme();
   }
 
